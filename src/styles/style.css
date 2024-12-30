@@ -21,6 +21,7 @@ body {
 .banner p{
     font-size: 1.5em;
     color: #ae96c5;
+    font-family: 'Great Vibes', cursive;
 }
 .content {
     padding: 20px;
