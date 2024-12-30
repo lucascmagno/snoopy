@@ -1,0 +1,94 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f3e6ff;
+    color: #333;
+    height: auto;
+}
+.banner {
+    text-align: center;
+    padding: 50px;
+    background: url('snoopy-polaroid-banner.jpg') no-repeat center;
+    background-size: cover;
+    color: #fff;
+}
+.banner h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 3em;
+    color: #dfccf2;
+}
+.banner p{
+    font-size: 1.5em;
+    color: #dfccf2;
+}
+.content {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+.polaroid {
+    background: #f8f3fc;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 100px;
+    animation: float 4s ease-in-out infinite;
+}
+
+.polaroid img{
+    width: 100%;
+    height: 50px;
+    border-bottom: 5px solid #c7b3d9;
+}
+.polaroid:nth-child(1) {
+    top: 10%;
+    left: 20%;
+    animation-delay: 0s;
+}
+.polaroid:nth-child(2) {
+    top: 20%;
+    left: 50%;
+    animation-delay: 1s;
+}
+.polaroid:nth-child(3) {
+    top: 40%;
+    left: 70%;
+    animation-delay: 2s;
+}
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-20px) rotate(5deg);
+    }
+}
+.polaroid img {
+    width: 100%;
+    border-bottom: 5px solid #c7b3d9;
+}
+.polaroid p {
+    margin: 10px 0 0;
+    font-family: 'Dancing Script', cursive;
+    color: #555;
+}
+.gift-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    cursor: pointer;
+}
+.gift-icon img {
+    width: 60px;
+    height: 60px;
+}
