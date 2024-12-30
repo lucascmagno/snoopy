@@ -5,10 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>polaroids Snoopy</title>
     <link rel="stylesheet" href="src/styles/style.css">
+    <link rel="shortcut icon" href="./assets/icons/icon_36a929d1df2d66cc723206fea946e153.ico" type="image/x-icon">
 </head>
 <body>
+    <div class="falling-container" id="fallingContainer"></div>
+
     <div class="banner">
-        <h2>"POLAROIDS DO SNOOPY!"</h2>
+        <h2>POLAROIDS DO SNOOPY!</h2>
         <p>Esses polaroids refletem o humor e as persoliades da Débora!</p>
     </div>
     <div class="content">
@@ -128,5 +131,39 @@
             <img src="./assets/images/Snoopy Christmas Png, Snoopy Christmas Svg, Woodstock Svg, P _ Inspire Uplift.jpg" alt="Gift Icon">
         </a>
     </div>
+
+    <script>
+        function createFallingElements(type, count) {
+            const container = document.getElementById('fallingContainer');
+            for (let i = 0; i < count; i++) {
+                const element = document.createElement('div');
+                element.className = type;
+                element.style.left = Math.random() * 100 + 'vw';
+                element.style.animationDuration = Math.random() * 3 + 2 + 's';
+                element.style.animationDelay = Math.random() * 5 + 's';
+                container.appendChild(element);
+    
+                // Remover elemento após a animação
+                element.addEventListener('animationend', () => {
+                    element.remove();
+                });
+            }
+        }
+    
+        // Função para misturar confetes e corações
+        function createFallingEffects() {
+            createFallingElements('confetti', 50); // Confetes
+            createFallingElements('heart', 30);   // Corações
+        }
+    
+        // Ativar a chuva de confetes e corações ao carregar a página
+        window.onload = () => {
+            createFallingEffects();
+        };
+    </script>
+    
+    
+    
 </body>
 </html>
+
