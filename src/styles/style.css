@@ -36,6 +36,7 @@ body {
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
+    min-width: 60px;
     max-width: 100px;
     animation: float 4s ease-in-out infinite;
 }
@@ -46,19 +47,189 @@ body {
     border-bottom: 5px solid #c7b3d9;
 }
 .polaroid:nth-child(1) {
-    top: 10%;
-    left: 20%;
+    top: 2%;
+    left: 5%;
     animation-delay: 0s;
 }
 .polaroid:nth-child(2) {
+    top: 4%;
+    left: 10%;
+    animation-delay: 1s;
+}
+.polaroid:nth-child(3) {
+    top: 6%;
+    left: 15%;
+    animation-delay: 2s;
+}
+.polaroid:nth-child(4) {
+    top: 8%;
+    left: 20%;
+    animation-delay: 1s;
+}
+.polaroid:nth-child(5) {
+    top: 10%;
+    left: 25%;
+    animation-delay: 0s;
+}
+.polaroid:nth-child(6) {
+    top: 12%;
+    left: 30%;
+    animation-delay: 1s;
+}
+.polaroid:nth-child(7) {
+    top: 14%;
+    left: 35%;
+    animation-delay: 2s;
+}
+.polaroid:nth-child(8) {
+    top: 16%;
+    left: 40%;
+    animation-delay: 1s;
+}
+.polaroid:nth-child(9) {
+    top: 18%;
+    left: 45%;
+    animation-delay: 0s;
+}
+.polaroid:nth-child(10) {
     top: 20%;
     left: 50%;
     animation-delay: 1s;
 }
-.polaroid:nth-child(3) {
-    top: 40%;
-    left: 70%;
+.polaroid:nth-child(11) {
+    top: 22%;
+    left: 55%;
     animation-delay: 2s;
+}
+.polaroid:nth-child(12) {
+    top: 24%;
+    left: 60%;
+    animation-delay: 1s;
+}
+.polaroid:nth-child(13) {
+    top: 26%;
+    left: 65%;
+    animation-delay: 0s;
+}
+.polaroid:nth-child(14) {
+    top: 28%;
+    left: 70%;
+    animation-delay: 1s;
+}
+.polaroid:nth-child(15) {
+    top: 30%;
+    left: 75%;
+    animation-delay: 2s;
+}
+.polaroid:nth-child(16) {
+    top: 32%;
+    left: 80%;
+    animation-delay: 1s;
+}
+.polaroid:nth-child(17) {
+    top: 34%;
+    left: 85%;
+    animation-delay: 0s;
+}
+.polaroid:nth-child(18) {
+    top: 36%;
+    left: 90%;
+    animation-delay: 1s;
+}
+.polaroid:nth-child(19) {
+    top: 38%;
+    left: 95%;
+    animation-delay: 2s;
+}
+.polaroid:nth-child(20) {
+    top: 40%;
+    left: 100%;
+    animation-delay: 1s;
+}
+.polaroid:nth-child(21) {
+    top: 42%;
+    left: 105%;
+    animation-delay: 0s;
+}
+.polaroid:nth-child(22) {
+    top: 44%;
+    left: 110%;
+    animation-delay: 1s;
+}
+.polaroid:nth-child(23) {
+    top: 46%;
+    left: 115%;
+    animation-delay: 2s;
+}
+.polaroid:nth-child(24) {
+    top: 48%;
+    left: 120%;
+    animation-delay: 1s;
+}
+.polaroid:nth-child(25) {
+    top: 50%;
+    left: 125%;
+    animation-delay: 0s;
+}
+.polaroid:nth-child(26) {
+    top: 52%;
+    left: 130%;
+    animation-delay: 1s;
+}
+.polaroid:nth-child(27) {
+    top: 54%;
+    left: 135%;
+    animation-delay: 2s;
+}
+.polaroid:nth-child(28) {
+    top: 56%;
+    left: 140%;
+    animation-delay: 1s;
+}
+.polaroid:nth-child(29) {
+    top: 58%;
+    left: 145%;
+    animation-delay: 0s;
+}
+.polaroid:nth-child(30) {
+    top: 60%;
+    left: 150%;
+    animation-delay: 1s;
+}
+.polaroid:nth-child(31) {
+    top: 62%;
+    left: 155%;
+    animation-delay: 2s;
+}
+.polaroid:nth-child(32) {
+    top: 64%;
+    left: 160%;
+    animation-delay: 1s;
+}
+.polaroid:nth-child(33) {
+    top: 66%;
+    left: 165%;
+    animation-delay: 0s;
+}
+.polaroid:nth-child(34) {
+    top: 68%;
+    left: 170%;
+    animation-delay: 1s;
+}
+.polaroid:nth-child(35) {
+    top: 70%;
+    left: 175%;
+    animation-delay: 2s;
+}
+.polaroid:nth-child(36) {
+    top: 72%;
+    left: 180%;
+    animation-delay: 1s;
+}
+.polaroid:nth-child(37) {
+    top: 74%;
+    left: 185%;
+    animation-delay: 0s;
 }
 @keyframes float {
     0%, 100% {
@@ -71,11 +242,6 @@ body {
 .polaroid img {
     width: 100%;
     border-bottom: 5px solid #c7b3d9;
-}
-.polaroid p {
-    margin: 10px 0 0;
-    font-family: 'Dancing Script', cursive;
-    color: #555;
 }
 .gift-icon {
     position: fixed;
